@@ -78,7 +78,7 @@ resource "aws_instance" "terraform-instance" {
   subnet_id       = aws_subnet.terraform_subnet.id
   ami             = "ami-0ad21ae1d0696ad58"
   instance_type   = "t2.micro"
-  key_name        = "terra"
+  key_name        = "OPQ key"
   security_groups = [aws_security_group.terra_sg.id]
   tags = {
     "Name" = "test"
