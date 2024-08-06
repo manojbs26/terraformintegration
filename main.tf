@@ -107,3 +107,4 @@ resource "aws_dynamodb_table" "remote-statelock" {
         name = "LockID"
         type = "S"
     }
+}
